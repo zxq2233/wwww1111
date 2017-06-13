@@ -1,0 +1,13 @@
+{
+    "require": {
+        "php": ">=5.4.0",
+        "ext-imagick": "*",
+        "silex/silex": "~1.0@dev"
+    },
+    "extra": {
+        "heroku": {
+            "document-root": "web",
+            "index-document": "index.php"
+        }
+    }
+}
